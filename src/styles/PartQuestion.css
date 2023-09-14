@@ -1,0 +1,53 @@
+.answer-btn{
+    color: #79c9fe ;
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid #79c9fe;
+    background-color: transparent;
+}
+
+.answer-btn:hover{
+    color: #252d4a;
+    background-color: #79c9fe;
+    transition: 1s ease-out;
+}
+
+.img-fluid{
+    border-radius: 5%;
+    height: 22vh !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+.dot{
+    height: 3.5vh;
+    width: 3.5vh;
+    border: .3px solid white;
+    border-radius: 100%;
+    
+}
+
+.dot-correct{
+    background-color: rgb(5, 190, 5) !important;
+    border: none;
+}
+.dot-incorrect{
+    background-color: red !important;
+    border: none;
+}
+
+.emoji{
+    width: 6vw !important;
+    height: 10vh !important;
+}
+
+@media screen and (max-width: 480px) {
+    .dot {
+        height: 2vh;
+        width: 2vh;
+    }
+    .emoji{
+        width: 15vw !important;
+        height: 10vh !important;
+    }
+ }
