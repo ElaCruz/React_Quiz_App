@@ -105,7 +105,7 @@ function QuestionCard() {
             Answers: [
                 {Answer: "Elon_Musk", isCorrect: false },
                 {Answer: "Zhang_Yiming", isCorrect: true },
-                {Answer: "Evan_Spiegel", isCorrect: false }
+                {Answer: "Evan_Spieg", isCorrect: false }
             ],
             
         },
@@ -113,7 +113,7 @@ function QuestionCard() {
         {    
             Image : <img src={PicEight} alt="" className='img-fluid mb-3 shadow' />,
             Timer: <Timer />,
-            Question:   'How many heart(s) have an Octopus ?' ,
+            Question:   'How many heart(s) has an Octopus.. ?' ,
             Answers: [
                 {Answer: "One_Heart", isCorrect: false },
                 {Answer: "Two_Hearts", isCorrect: false },
@@ -137,7 +137,7 @@ function QuestionCard() {
         {    
             Image : <img src={PicTen} alt="" className='img-fluid mb-3 shadow' />,
             Timer: <Timer />,
-            Question:   'In which country will you find Mt Killimanjaro?' ,
+            Question:   'Where would you find Mt Killimanjaro?' ,
             Answers: [
                 {Answer: "Zimbabwe", isCorrect: false },
                 {Answer: "South_Afica", isCorrect: false },
